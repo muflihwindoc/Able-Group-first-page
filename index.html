@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABLE GROUP</title>
+
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/slider.css">
+    <link rel="stylesheet" href="./css/newsection.css">
+    <link rel="stylesheet" href="images.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="./images/logos/favicon.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <header>
+        <div class="main">
+        <div class="left-side">
+            <div class="logo">
+                <img src="./images/logos/full propotion.png" alt="" srcset="">
+            </div>
+        </div>
+        <div class="links">
+            <ul class="headerLinks">
+                <li>Home</li>
+                <li>About us</li>
+                <li>Products</li>
+                <li>Contact us</li>
+                <li>News</li>
+            </ul>
+        </div>
+            <div class="searchitems">
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="searchIcon"><i class="fas fa-search"></i></a>
+                </li>
+            </div>
+                <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+
+        <div class="second">
+           
+            <div class="dropdownmenu">
+                <li>Home</li>
+                <li>About us</li>
+                <li>Products</li>
+                <li>Contact us</li>
+                <li>News</li>
+            </div>
+        </div>
+        
+    </header>
+<section class="firstshow" >
+        <p>Fully integrated hardware & build in gmaterials</p>
+</section>
+
+<!-- Search Bar Hidden -->
+<div id="searchBar" class="search-bar">
+    <form class="d-flex" onsubmit="performSearch(event)">
+        <input class="form-control me-2" type="search" placeholder="Search..." id="searchInput" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">
+            <i class="fas fa-search"></i>
+        </button>
+    </form>
+</div>
+
+<!-- top scroller -->
+<div class="scroll-to-top" id="scrollToTop" onclick="scrollToTop()">
+    <i class="fa-solid fa-arrow-up"></i>
+</div>
+
+<!-- slider -->
+<section class="slider-container">
+    <div class="carousel">
+        <div class="card">
+            <img src="./images/cards/top-section-bg.jpeg" alt="Card 1">
+        </div>
+        <div class="card">
+            <img src="./images/cards/top-section-bg01.jpeg" alt="Card 2">
+        </div>
+        <div class="card">
+            <img src="./images/cards/top-section-bg.jpeg" alt="Card 3">
+        </div>
+        <div class="card">
+            <img src="./images/cards/top-section-bg01.jpeg" alt="Card 4">
+        </div>
+        <div class="card">
+            <img src="./images/cards/top-section-bg.jpeg" alt="Card 5">
+        </div>
+    </div>
+
+    <!-- Carousel Navigation -->
+    <div class="carousel-nav">
+        <button id="prevBtn">&#8249;</button>
+        <button id="nextBtn">&#8250;</button>
+    </div>
+</section>
+
+<!-- Product catogaries -->
+
+<section class="Products">
+    <div class="firstbar" data-aos="fade-up">
+        <h1 style="font-weight: 700;"><span style="color: #e20816;">Our </span> Product Categories</h1>
+    </div>
+    <div class="secondbar">
+        <div class="row1">
+            <div class="productcards addscard" data-aos="fade-up">
+                <div class="icons">
+                    <div class="imagess painting">
+                    </div>
+                </div>
+                <p>Painting  Accessories</p>
+            </div>
+            <div class="productcards" data-aos="fade-up">
+                <div class="icons">
+                <div class="imagess Fasteners">
+                </div>
+            </div>
+                <p>Fasteners</p>
+            </div>
+            <div class="productcards addscard" data-aos="fade-up">
+                <div class="icons">
+                    <div class="imagess hand-tools">
+                    </div>
+                </div>
+                <p>Hand Tools</p>
+            </div>
+            <div class="productcards" data-aos="fade-up">
+                <div class="icons">
+                <div class="imagess Power">
+                </div>
+                </div>
+                <p>Power Tools</p>
+            </div>
+            <div class="productcards addscard" data-aos="fade-up">
+                <div class="icons">
+                    <div class="imagess Safety"></div>
+                </div>
+                <p>Safety Products</p>
+            </div>
+        </div>
+        <div class="row2">
+            <div class="productcards" data-aos="fade-up">
+                <div class="icons">
+                    <div class="imagess lock"></div>
+                </div>
+                <p>Carpentry & Lock Accessories</p>
+            </div>
+            <div class="productcards addscard" data-aos="fade-up">
+                <div class="icons">
+                    <div class="imagess ware"></div>
+                </div>
+                <p>Sanitary Ware</p>
+            </div>
+            <div class="productcards" data-aos="fade-up">
+                <div class="icons">
+                    <div class="imagess plumbing"></div>
+                </div>
+                <p>Plumbing Accessories </p>
+            </div>
+            <div class="productcards addscard" data-aos="fade-up">
+                <div class="icons">
+                    <div class="imagess chemical"></div>
+                </div>
+                <p>Chemical Products</p>
+            </div>
+            <div class="productcards" data-aos="fade-up">
+                <div class="icons">
+                    <div class="imagess building"></div>
+                </div>
+                <p>Hardware & Building Materials </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- about contents -->
+ <section class="aboutcontents">
+    <div class="caption-about">
+        <div class="heading-about" >
+            <h1 data-aos="fade-up">About <span style="color: #e20816;"> ABLE </span> GROUP W.L.L</h1>
+            <p data-aos="fade-up">Fully integrated hardware & building materials</p>
+        </div>
+        <div class="about-caption-p" data-aos="fade-up">
+            <p><span style="font-weight: bold;">ABLE GROUP W.L.L. </span> emerged in the State of Qatar in 1996, a professional dealer engaged in import and export, wholesale and retail distribution of sanitary items, painting tools, hand tools, power tools, safety products, plumbing items, carpentry items, chemical items, and other hardware and building materials. With its immense dedication to the customer satisfaction, the company quickly established itself as the trusted choice for the customers across the Qatar market.</p>
+            <p>Our 27 years of professional experience which enable us to secure and maintain long term relationship with 1000 of factories in the mainland of China, Taiwan, Korea, India, Pakistan, Malaysia, Turkey, USA, Germany, UK, Italy, Russia and Middle East. As a result, we are able to source products that meet the quality and price requirements of our esteemed clients.</p>
+        </div>
+    </div>
+    <div class="about-image" data-aos="fade-up">
+        <img src="./images/section-images/about-section.jpg" alt="">
+    </div>
+
+ </section>
+
+ <!-- misssion-vision -->
+  <section class="mission-vission">
+    <div class="mission-section">
+        <div class="vision">
+            <div class="icon">
+                <img src="./images/section-images/icons/lightbulb.png" alt="" data-aos="fade-up">
+                <span data-aos="fade-up">Vision</span>
+            </div>
+            <div class="contentsofimg" data-aos="fade-up">
+                <p>Able Group WLL prides itself on its quality and performance. The sole vision of the company is to deliver products and services conforming to International standards and satisfying the requirements and the expectations of our customers in respect of quality, cost, performance, safety and reliability.</p>
+            </div>
+        </div>
+        <div class="mission">
+            <div class="icon">
+                <img src="./images/section-images/icons/aim.png" alt="" data-aos="fade-up">
+                <span data-aos="fade-up">Mission</span>
+            </div>
+            <div class="contentsofimg" data-aos="fade-up">
+                <p>Foster team work by nurturing talent, enhancing leadership capability and acting with pace, pride and passion. The company aims to become the supplier of choice, deliver premium products and services, and create value for our customers.</p>
+            </div>
+        </div>
+    </div>
+    <div class="major-brands">
+        <div class="caption-brand" data-aos="fade-up">
+            <h5>Our <span style="color: #e20816;"> Major Brands</span></h5>
+        </div>
+        <div class="brand-images" data-aos="fade-up">
+            <img src="./images/section-images/majour-brand.png" alt="">
+        </div>
+        <div class="brands-serve-text">
+            <span data-aos="fade-up">“we serve you the best quality brands”</span>
+        </div>
+    </div>
+  </section>
+
+  <!-- customer feedbacks -->
+   <section class="feedbacks">
+    <div class="feedback-caption">
+        <h1 data-aos="fade-up">What our customers say</h1>
+    </div>
+    <div class="feedback-column">
+        <div class="feedbackcards" data-aos="fade-up"></div>
+        <div class="feedbackcards" data-aos="fade-up"></div>
+        <div class="feedbackcards" data-aos="fade-up"></div>
+        <div class="feedbackcards" data-aos="fade-up"></div>
+    </div>
+   </section>
+
+<!-- news section and events -->
+<section class="news-sections">
+    <div class="news-section-caption" data-aos="fade-up">
+        <h1>News & Events</h1>
+    </div>
+    <div class="news">
+        <div class="news-row-1">
+            <div class="card1">
+                <div class="event-cards" data-aos="fade-up">
+                <div class="event-img">
+                    <img src="./images/news-and-events/news01.PNG" alt="">
+                </div>
+                <div class="event-p">New showroom at BARAWA Village</div>
+                </div>
+                <div class="event-cards" data-aos="fade-up">
+                <div class="event-img">
+                    <img src="./images/news-and-events/news02.PNG" alt="">
+                </div>
+                <div class="event-p">PATTA Product Launching Ceremony.</div>
+                </div>
+            </div>
+            <div class="card2">
+                <div class="event-cards" data-aos="fade-up">
+                <div class="event-img">
+                    <img src="./images/news-and-events/news03.PNG" alt="">
+                </div>
+                <div class="event-p">Able Group Qatar SME Award Winning 2016</div>
+                </div>
+                <div class="event-cards" data-aos="fade-up">
+                <div class="event-img">
+                    <img src="./images/news-and-events/news04.PNG" alt="">
+                </div>
+                <div class="event-p">Thumb Brand Concrete Nail Authorized Dealership Handover</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="news-row-2">
+            <div class="card1">
+                <div class="event-cards" data-aos="fade-up">
+                <div class="event-img">
+                    <img src="./images/news-and-events/news05.PNG" alt="">
+                </div>
+                <div class="event-p">NEW WAREHOUSE AT AWLPA051</div>
+                </div>
+                <div class="event-cards" data-aos="fade-up">
+                <div class="event-img">
+                    <img src="./images/news-and-events/news06.PNG" alt="">
+                </div>
+                <div class="event-p">NEW CORP. OFFICE AT AWLPA051 </div>
+                </div>
+            </div>
+            <div class="card2">
+                <div class="event-cards" data-aos="fade-up">
+                <div class="event-img">
+                    <img src="./images/news-and-events/news07.PNG" alt="">
+                </div>
+                <div class="event-p">NEW SHOWROOM AT AWLPA051</div>
+                </div>
+                <div class="event-cards" data-aos="fade-up">
+                <div class="event-img">
+                    <img src="./images/news-and-events/news08.PNG" alt="">
+                </div>
+                <div class="event-p">Emergency Relief Support to Earthquake Disaster in Turkey & Syria</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- number counting -->
+ <section class="number-counting">
+    <div class="container">
+        <div class="stat-box">
+          <h3>1996</h3>
+          <p>Year of Established</p>
+        </div>
+        <div class="stat-box">
+          <h3>2500+</h3>
+          <p >Quality Products</p>
+        </div>
+        <div class="stat-box">
+          <h3>1000+</h3>
+          <p >Satisfied Clients</p>
+        </div>
+        <div class="stat-box">
+          <h3>200+</h3>
+          <p >Reliable Suppliers</p>
+        </div>
+        <div class="stat-box">
+          <h3>SME</h3>
+          <p >Award Won</p>
+        </div>
+      </div>
+ </section>
+
+<!-- footer -->
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-parts">
+            <div class="footer-img">
+                <img src="./images/logos/full-propotion-white-theme.png" alt="">
+            </div>
+            <div class="footer-sub-details">
+                <li><a href="mailto:info@ablegroupqatar.com">Email: info@ablegroupqatar.com</a></li>
+                <li><a href="tel:+97444501707">Tel: +974 44501707</a></li>
+
+                <div class="socialmedia-footer">
+                    <li>Social Media</li>
+                    <div class="socialmedia-icons">
+                        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-parts">
+            <div class="footer-ourproducts">
+                <span>Our Products</span>
+                <li><a href="#">Painting Accessories</a></li>
+                <li><a href="#">Fasteners</a></li>
+                <li><a href="#">Hand Tools </a></li>
+                <li><a href="#">Power Tools</a></li>
+                <li><a href="#">Safety Products</a></li>
+                <li><a href="#">Carpentry & Lock Accessories</a></li>
+                <li><a href="#">Sanitary Ware </a></li>
+                <li><a href="#">Plumbing Accessories</a></li>
+                <li><a href="#">Chemical Products </a></li>
+                <li><a href="#">Hardware & Building Materials </a></li>
+            </div>
+        </div>
+        <div class="footer-parts">
+            <div class="contact-footers">
+                <div class="contact-part"><span>Contact Us</span></div>
+                <div class="sub-contacts">
+                <li><span>Corp. Office & Warehouse: </span></li>
+                <li><span>Al Wakrah Logistics Park - A, Plot No - 051 </span></li>
+                <li><span>Zone - 92, Street No - 67, Building No - 49</span></li>
+                <li><span>Al Wukair, Qatar P.O.Box No - 40151,</span></li>
+                <li><span>Doha - Qatar</span></li>
+                <li><span>Tel: +974 4450 1707/4001 6412</span></li>
+                </div>
+                <div class="branches-contact">
+                    <span class="span-branch">Branch: </span>
+                    <li><span>Barwa Village, Building - 6, Shop - 40&42,  </span></li>
+                    <li><span>Al Wakrah</span></li>
+                    <li><a href="tel:+974 4415 3355">Tel: +974 4415 3355</a></li>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <span>copyright <i class="fa-regular fa-copyright"></i> 2024 Able group WLL. All Rights Reserved</span>
+    </div>
+</footer>
+
+
+
+
+    <!-- scripts -->
+    <script src="./js/script.js"></script>
+    <script src="./js/slider.js"></script>
+    <script src="./js/navbar.js"></script>
+    <script src="./js/counter.js"></script>
+    <script src="./js/scrollTop.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/c1a057fba0.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    
+</body>
+</html>

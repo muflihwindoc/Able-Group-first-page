@@ -1,0 +1,60 @@
+.imagess.painting{
+    background-image: url(./images/products/paint-roller.png); 
+    width: 80px; 
+    background-size: cover; 
+    height: 80px;
+}
+.imagess.Fasteners{
+    background-image: url(./images/products/screw.png); 
+    width: 80px; 
+    background-size: cover; 
+    height: 80px;
+}
+.imagess.Fasteners:hover{
+    background-image: url(./images/products/screw-red.png); 
+}
+.imagess.hand-tools{
+    background-image: url(./images/products/hand-tools.png); 
+    width: 80px; 
+    background-size: cover; 
+    height: 80px;
+}
+.imagess.Power{
+    background-image: url(./images/products/driller.png); 
+    width: 90px; 
+    background-size: cover; 
+    height: 80px;
+}
+.imagess.Power:hover{
+    background-image: url(./images/products/driller-red.png); 
+}
+.imagess.Safety{
+    background-image: url(./images/products/protection.png); 
+    width: 90px; 
+    background-size: cover; 
+    height: 80px;
+}
+.imagess.lock{
+    background-image: url(./images/products/door-handle.png); width: 80px; background-size: cover; height: 80px;
+}
+.imagess.lock:hover{
+    background-image: url(./images/products/door-handle-red.png);
+}
+.imagess.ware{
+    background-image: url(./images/products/water-tap.png); width: 90px; background-size: cover; height: 80px;
+}
+.imagess.plumbing{
+    background-image: url(./images/products/tee.png); width: 90px; background-size: cover; height: 80px;
+}
+.imagess.plumbing:hover{
+    background-image: url(./images/products/tee-red.png);
+}
+.imagess.chemical{
+    background-image: url(./images/products/chemical.png); width: 80px; background-size: cover; height: 80px;
+}
+.imagess.building{
+    background-image: url(./images/products/pc-tower.png); width: 90px; background-size: cover; height: 80px;
+}
+.imagess.building:hover{
+    background-image: url(./images/products/pc-tower-red.png);
+}
